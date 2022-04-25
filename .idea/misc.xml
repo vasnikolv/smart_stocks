@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/bot_nav_selector.xml" value="0.3515" />
+        <entry key="app/src/main/res/drawable/friend.xml" value="0.3515" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/ic_dot_plus.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/konstr_style.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/mes.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/shop.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_bottom_navigation.xml" value="0.2338510880478398" />
+        <entry key="app/src/main/res/layout/activity_first_new.xml" value="0.14548611111111112" />
+        <entry key="app/src/main/res/layout/activity_href.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_news.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_second_new.xml" value="0.18920765027322403" />
+        <entry key="app/src/main/res/layout/articles.xml" value="0.21822916666666667" />
+        <entry key="app/src/main/res/layout/first_new.xml" value="0.14548611111111112" />
+        <entry key="app/src/main/res/layout/fragment_akcv_fragment.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_akcvniz.xml" value="0.10021260579427077" />
+        <entry key="app/src/main/res/layout/fragment_articles.xml" value="0.1264190673828125" />
+        <entry key="app/src/main/res/layout/fragment_articles_content.xml" value="0.10151028103298615" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.21822916666666667" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21822916666666667" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.21822916666666667" />
+        <entry key="app/src/main/res/layout/fragment_pfofil.xml" value="0.16837514241536455" />
+        <entry key="app/src/main/res/layout/fragment_pfofile.xml" value="0.21822916666666667" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.30009002685546876" />
+        <entry key="app/src/main/res/layout/fragment_robot.xml" value="0.25613356185833197" />
+        <entry key="app/src/main/res/layout/fragment_stati.xml" value="0.3111679077148438" />
+        <entry key="app/src/main/res/layout/fragment_stocks_down.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_stocks_up.xml" value="0.35052795410156246" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.21822916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

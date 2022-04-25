@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".SecondNew">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/second_new_article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text='Что встряхнет рынки: прибыль FedEx и отчет GameStop'
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/second_new_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:text="Финби"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/second_new_article"
+            app:layout_constraintTop_toBottomOf="@+id/second_new_article" />
+
+        <TextView
+            android:id="@+id/second_new_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="32dp"
+            android:text='В четверг американский рынок вырос, так как инвесторы смирились с тем, что Федеральная резервная система, вероятно, будет повышать ставку на каждом из своих оставшихся заседаний в этом году после повышения краткосрочного ориентира на четверть пункта в среду.
+
+Действия ФРС, конечно же, были хорошо известны и ожидаемы. Официальные лица, определяющие политику центрального банка, прогнозируют, что ставка по федеральным фондам в конце года составит около 1,9%.
+
+'
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/second_new_source" />
+
+        <TextView
+            android:id="@+id/second_new_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18.03.2022 11:49"
+            app:layout_constraintEnd_toEndOf="@+id/second_new_article"
+            app:layout_constraintTop_toTopOf="@+id/second_new_source" />
+
+        <ImageView
+            android:id="@+id/second_new_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="fitStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/second_new_source"
+            app:srcCompat="@drawable/gamestop" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

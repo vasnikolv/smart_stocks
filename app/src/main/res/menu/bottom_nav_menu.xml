@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/stati"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_ups"
+        android:icon="@drawable/stocks_up"
+        android:title="@string/title_ups" />
+
+    <item
+        android:id="@+id/navigation_robot"
+        android:icon="@drawable/robot"
+        android:title="@string/title_robot" />
+
+    <item
+        android:id="@+id/navigation_downs"
+        android:icon="@drawable/stocks_down"
+        android:title="@string/title_downs" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profil"
+        android:title="@string/title_profile" />
+</menu>
