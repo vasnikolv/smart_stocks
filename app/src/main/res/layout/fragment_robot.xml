@@ -8,7 +8,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#E5E5E5">
+       android:background="?android:attr/windowBackground">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,7 +25,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
-                    android:background="@drawable/konstr_style"
+                    android:background="@drawable/rect_area_with_rounded_corners"
                     android:backgroundTint="#CFC77B"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -92,7 +92,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
-                    android:background="@drawable/konstr_style"
+                    android:background="@drawable/rect_area_with_rounded_corners"
                     android:backgroundTint="#F1E892"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -171,7 +171,7 @@
                     android:layout_marginTop="8dp"
                     android:gravity="right"
                     android:text="Учись."
-                    android:textColor="#000000"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="50dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
@@ -184,7 +184,7 @@
                     android:layout_marginTop="32dp"
                     android:gravity="right"
                     android:text="Живи."
-                    android:textColor="#000000"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="50dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/zagl3"
@@ -197,7 +197,7 @@
                     android:layout_marginTop="32dp"
                     android:gravity="right"
                     android:text="ИИ."
-                    android:textColor="#000000"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="50dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/zagl4"
@@ -210,7 +210,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
-                    android:background="@drawable/konstr_style"
+                    android:background="@drawable/rect_area_with_rounded_corners"
                     android:backgroundTint="#E5DC8B"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"

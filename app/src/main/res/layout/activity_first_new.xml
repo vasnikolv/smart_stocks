@@ -5,6 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="12dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -15,7 +19,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
-                android:text='"Газпром" и Монголия перешли к проектированию газопровода "Союз Восток"'
+                android:text='"Газпром" разъяснил ситуацию с поставками газа в Польшу'
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +44,11 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
-                android:text='"Проект "Союз Восток" перешел в стадию проектирования. В ходе встречи Алексея Миллера и вице-премьера Монголии Сайнбуянгийна Амарсайхана компания специального назначения "Газопровод Союз Восток" и "Газпром проектирование" подписали договор на выполнение проектно-изыскательских работ в рамках строительства газопровода", — говорится в сообщении в официальном Telegram-канале компании."'
+                android:text='Для диверсификации поставок сейчас в Польшу тянется газопровод Baltic Pipe из Норвегии. Его максимальная мощность - 10 млрд кубометров в год, что соответствует объемам импорта газа из России. Но запуск газопровода запланирован только в сентябре, а на заявленную мощность он сможет выйти только в 2023 году. К тому же под вопросом остается ресурсная база для заполнения Baltic Pipe.
+
+Польша проживет без прямого экспорта газа из России, но Варшаву ждет тяжелая зима и уже в ближайшее время полякам понадобятся поставки российского газа через третьи страны - Германию или Словакию, считает замглавы Фонда национальной энергетической безопасности Алексей Гривач.
+
+По его словам, это в свою очередь усложнит для других стран ЕС подготовку к предстоящей зиме. Ну а дефицит газа поддержит цены на высоком уровне в ближайшие месяцы, усиливая нагрузку на экономическую и социальную системы Европы, а также осложнит закачку газа в подземные хранилища на коммерческих условиях, считает эксперт.'
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -55,18 +63,18 @@
                 app:layout_constraintTop_toTopOf="@+id/second_new_source" />
 
             <ImageView
-                android:id="@+id/firt_new_image"
+                android:id="@+id/first_new_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="12dp"
-                android:scaleType="fitStart"
+                android:scaleType="centerInside"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4"
                 app:srcCompat="@drawable/first_new_image" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
