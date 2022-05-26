@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:background="?android:attr/windowBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="?android:attr/windowBackground">
+            android:layout_marginBottom="44dp">
 
             <TextView
                 android:id="@+id/top"
@@ -29,7 +29,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/sber"
+                android:id="@+id/first_best_broker"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -42,35 +42,35 @@
                 app:layout_constraintTop_toBottomOf="@+id/top">
 
                 <TextView
-                    android:id="@+id/sber1"
+                    android:id="@+id/first_best_broker_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
                     android:layout_marginTop="23dp"
                     android:layout_marginBottom="50dp"
-                    android:text="@string/articles_sber1"
+                    android:text="@string/articles_first_best_broker_name"
                     android:textColor="#E0FFEB"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/sber2"
+                    android:id="@+id/first_best_broker_comments"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
                     android:layout_marginTop="65dp"
                     android:layout_marginBottom="20dp"
-                    android:text="@string/articles_comments"
+                    android:text="@string/articles_first_best_broker_comments"
                     android:textColor="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/sber3"
+                    android:id="@+id/first_best_broker_rating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="65dp"
@@ -84,7 +84,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/tink"
+                android:id="@+id/second_best_broker"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -94,38 +94,38 @@
                 android:backgroundTint="#000000 "
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/sber">
+                app:layout_constraintTop_toBottomOf="@+id/first_best_broker">
 
                 <TextView
-                    android:id="@+id/tink1"
+                    android:id="@+id/second_best_broker_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
                     android:layout_marginTop="23dp"
                     android:layout_marginBottom="50dp"
-                    android:text="Тинькофф Инвестиции"
+                    android:text="@string/articles_second_best_broker_name"
                     android:textColor="#FFD643"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/tink2"
+                    android:id="@+id/second_best_broker_comments"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
                     android:layout_marginTop="65dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Комментарии"
+                    android:text="@string/articles_first_best_broker_comments"
                     android:textColor="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/tink3"
+                    android:id="@+id/second_best_broker_rating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="65dp"
@@ -139,7 +139,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/bcs"
+                android:id="@+id/third_best_broker"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -150,38 +150,38 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tink">
+                app:layout_constraintTop_toBottomOf="@+id/second_best_broker">
 
                 <TextView
-                    android:id="@+id/bks1"
+                    android:id="@+id/third_best_broker_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
                     android:layout_marginTop="23dp"
                     android:layout_marginBottom="50dp"
-                    android:text="БКС"
+                    android:text="@string/articles_third_best_broker_name"
                     android:textColor="#FFFFFF "
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/bks2"
+                    android:id="@+id/third_best_broker_comments"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
                     android:layout_marginTop="65dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Комментарии"
+                    android:text="@string/articles_first_best_broker_comments"
                     android:textColor="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/bks3"
+                    android:id="@+id/third_best_broker_rating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="65dp"
@@ -196,7 +196,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/finam"
+                android:id="@+id/fourth_best_broker"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -207,16 +207,16 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/bcs">
+                app:layout_constraintTop_toBottomOf="@+id/third_best_broker">
 
                 <TextView
-                    android:id="@+id/finam1"
+                    android:id="@+id/fourth_best_broker_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
                     android:layout_marginTop="23dp"
                     android:layout_marginBottom="50dp"
-                    android:text="ФИНАМ"
+                    android:text="@string/articles_fourth_best_broker_name"
                     android:textColor="#E8900B "
                     android:textSize="24sp"
                     android:textStyle="bold"
@@ -225,20 +225,20 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/finam2"
+                    android:id="@+id/fourth_best_broker_comments"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
                     android:layout_marginTop="65dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Комментарии"
+                    android:text="@string/articles_first_best_broker_comments"
                     android:textColor="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/finam3"
+                    android:id="@+id/fourth_best_broker_rating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="65dp"
@@ -256,23 +256,35 @@
                 android:id="@+id/news_article"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Новости"
+                android:text="@string/articles_news_article"
                 android:textColor="?android:textColorPrimary"
-                android:textSize="44sp"
+                android:textSize="56sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/finam" />
+                app:layout_constraintTop_toBottomOf="@+id/fourth_best_broker" />
+
+            <TextView
+                android:id="@+id/updater_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/articles_updater_button"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/news_article"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/news_article" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginTop="16dp"
                 android:fillViewport="true"
-                app:layout_constraintTop_toBottomOf="@+id/news_article">
+                app:layout_constraintTop_toBottomOf="@+id/updater_button">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
@@ -281,9 +293,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
+                        <!--                         you should change it by relativelayout -->
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/russian_news"
-                            android:layout_width="380dp"
+                            android:layout_width="300dp"
                             android:layout_height="match_parent"
                             android:background="#9199c4"
                             app:layout_constraintStart_toStartOf="parent">
@@ -294,7 +307,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:text="России"
+                                android:text="@string/articles_russian_news_article"
                                 android:textColor="#E0FFEB"
                                 android:textSize="20sp"
                                 android:textStyle="bold"
@@ -307,8 +320,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
-                                android:layout_marginEnd="16dp"
                                 android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
                                 android:background="@drawable/rect_area_with_rounded_corners"
                                 android:backgroundTint="#0040A0"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -316,14 +329,14 @@
                                 app:layout_constraintTop_toBottomOf="@+id/russian_news_article">
 
                                 <TextView
-                                    android:id="@+id/rus_new_1_article"
+                                    android:id="@+id/rus_new_1_title"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="16dp"
                                     android:layout_marginTop="16dp"
                                     android:layout_marginEnd="16dp"
-                                    android:text='ЦБ изменил порядок расчета официальных курсов валют'
                                     android:textColor="#E0FFEB"
+                                    android:text="@string/articles_rus_new_1_title_1"
                                     android:textSize="16sp"
                                     android:textStyle="bold"
                                     app:layout_constraintEnd_toEndOf="parent"
@@ -339,8 +352,8 @@
                                     android:text="25.04.2022 9:13"
                                     android:textColor="#E0FFEB"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintEnd_toEndOf="@id/rus_new_1_article"
-                                    app:layout_constraintTop_toBottomOf="@id/rus_new_1_article" />
+                                    app:layout_constraintEnd_toEndOf="@id/rus_new_1_title"
+                                    app:layout_constraintTop_toBottomOf="@id/rus_new_1_title" />
 
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -358,13 +371,13 @@
                                 app:layout_constraintTop_toBottomOf="@id/rus_new_1">
 
                                 <TextView
-                                    android:id="@+id/rus_new_2_article"
+                                    android:id="@+id/rus_new_2_title"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="16dp"
                                     android:layout_marginTop="16dp"
                                     android:layout_marginEnd="16dp"
-                                    android:text='Курс евро упал ниже 76 рублей'
+                                    android:text='@string/articles_rus_new_2_title_1'
                                     android:textColor="#E0FFEB"
                                     android:textSize="16sp"
                                     android:textStyle="bold"
@@ -381,8 +394,8 @@
                                     android:text="26.04.2022 9:13"
                                     android:textColor="#E0FFEB"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintEnd_toEndOf="@id/rus_new_2_article"
-                                    app:layout_constraintTop_toBottomOf="@id/rus_new_2_article" />
+                                    app:layout_constraintEnd_toEndOf="@id/rus_new_2_title"
+                                    app:layout_constraintTop_toBottomOf="@id/rus_new_2_title" />
 
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -400,7 +413,7 @@
                                 app:layout_constraintTop_toBottomOf="@id/rus_new_2">
 
                                 <TextView
-                                    android:id="@+id/rus_new_3_article"
+                                    android:id="@+id/rus_new_3_title"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="16dp"
@@ -423,8 +436,8 @@
                                     android:text="26.04.2022 20:18"
                                     android:textColor="#E0FFEB"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintEnd_toEndOf="@id/rus_new_3_article"
-                                    app:layout_constraintTop_toBottomOf="@id/rus_new_3_article" />
+                                    app:layout_constraintEnd_toEndOf="@id/rus_new_3_title"
+                                    app:layout_constraintTop_toBottomOf="@id/rus_new_3_title" />
 
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -442,7 +455,7 @@
                                 app:layout_constraintTop_toBottomOf="@id/rus_new_3">
 
                                 <TextView
-                                    android:id="@+id/rus_new_4_article"
+                                    android:id="@+id/rus_new_4_title"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="16dp"
@@ -465,8 +478,8 @@
                                     android:text="26.04.2022 20:18"
                                     android:textColor="#E0FFEB"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintEnd_toEndOf="@id/rus_new_4_article"
-                                    app:layout_constraintTop_toBottomOf="@id/rus_new_4_article" />
+                                    app:layout_constraintEnd_toEndOf="@id/rus_new_4_title"
+                                    app:layout_constraintTop_toBottomOf="@id/rus_new_4_title" />
 
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -484,7 +497,7 @@
                                 app:layout_constraintTop_toBottomOf="@id/rus_new_4">
 
                                 <TextView
-                                    android:id="@+id/rus_new_5_article"
+                                    android:id="@+id/rus_new_5_title"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="16dp"
@@ -507,8 +520,8 @@
                                     android:text="26.04.2022 20:18"
                                     android:textColor="#E0FFEB"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintEnd_toEndOf="@id/rus_new_5_article"
-                                    app:layout_constraintTop_toBottomOf="@id/rus_new_5_article" />
+                                    app:layout_constraintEnd_toEndOf="@id/rus_new_5_title"
+                                    app:layout_constraintTop_toBottomOf="@id/rus_new_5_title" />
 
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -516,9 +529,11 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/foreign_news"
-                            android:layout_width="380dp"
-                            android:layout_height="match_parent"
+                            android:layout_width="340dp"
+                            android:layout_height="fill_parent"
                             android:background="#9199"
+                            android:fillViewport="true"
+                            android:fitsSystemWindows="true"
                             app:layout_constraintStart_toEndOf="@id/russian_news"
                             app:layout_constraintTop_toTopOf="parent">
                             <!--если захочешь что-то добавить кроме новостей, наверное, придётся менять на wrap_content-->
@@ -529,7 +544,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginBottom="16dp"
-                                android:text="Иностранные"
+                                android:text="@string/articles_foreign_news_article"
                                 android:textColor="#E0FFEB"
                                 android:textSize="20sp"
                                 android:textStyle="bold"
@@ -751,6 +766,8 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </HorizontalScrollView>
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 </ScrollView>

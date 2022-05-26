@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--задел на будущее-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_articles">
+
+    <fragment
+        android:id="@+id/navigation_articles"
+        android:name="com.example.smart_stocks.Articles"
+        android:label="Articles"
+        tools:layout="@layout/fragment_articles">
+        <action
+            android:id="@+id/action_navigation_articles_to_navigation_ups"
+            app:destination="@id/navigation_ups" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_robot"
+        android:name="com.example.smart_stocks.Robot"
+        android:label="Robot"
+        tools:layout="@layout/fragment_robot">
+        <action
+            android:id="@+id/action_navigation_robot_to_navigation_downs"
+            app:destination="@id/navigation_downs" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_ups"
+        android:name="com.example.smart_stocks.StocksUp"
+        android:label="StocksUp"
+        tools:layout="@layout/fragment_stocks_up">
+        <action
+            android:id="@+id/action_navigation_ups_to_navigation_robot"
+            app:destination="@id/navigation_robot" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_downs"
+        android:name="com.example.smart_stocks.StocksDown"
+        android:label="StocksDown"
+        tools:layout="@layout/fragment_stocks_down">
+        <action
+            android:id="@+id/action_navigation_downs_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.smart_stocks.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
+</navigation>

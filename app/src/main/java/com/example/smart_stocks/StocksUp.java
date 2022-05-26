@@ -12,6 +12,6 @@ import androidx.fragment.app.Fragment;
 public class StocksUp extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_stocks_up, container);
+        return inflater.inflate(R.layout.fragment_stocks_up, container, false);
     }
 }

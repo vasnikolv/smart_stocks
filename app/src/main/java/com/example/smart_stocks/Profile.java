@@ -13,6 +13,20 @@ public class Profile extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_profile, container);
+        View view = inflater.inflate(R.layout.fragment_profile, container, false);
+
+//        Button buttonSwitchLanguageEnglish = view.findViewById(R.id.button_switch_language_to_en);
+//        buttonSwitchLanguageEnglish.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Context context = LocaleHelper.setLocale(requireContext(), "en");
+//            }
+//        });
+//    rgLanguage = view.findViewById(R.id.rg_language);
+//    rbEnglish = view.findViewById(R.id.rb_english);
+//    rbRussian = view.findViewById(R.id.rb_russian);
+//
+//    rgLanguage.SetOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener())
+        return view;
     }
 }

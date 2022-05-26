@@ -4,11 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="12dp"
-    tools:context=".SecondNew">
+    android:background="?android:attr/windowBackground"
+    android:fillViewport="false"
+    android:fitsSystemWindows="false"
+    android:padding="12dp">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView
             android:id="@+id/second_new_article"
             android:layout_width="wrap_content"

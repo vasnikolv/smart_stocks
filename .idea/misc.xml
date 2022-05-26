@@ -17,22 +17,24 @@
         <entry key="app/src/main/res/layout/activity_bottom_navigation.xml" value="0.2338510880478398" />
         <entry key="app/src/main/res/layout/activity_first_new.xml" value="0.15876278347439238" />
         <entry key="app/src/main/res/layout/activity_href.xml" value="0.4036458333333333" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22531433105468757" />
         <entry key="app/src/main/res/layout/activity_news.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/activity_second_new.xml" value="0.18920765027322403" />
         <entry key="app/src/main/res/layout/articles.xml" value="0.21822916666666667" />
         <entry key="app/src/main/res/layout/first_new.xml" value="0.29789123535156253" />
         <entry key="app/src/main/res/layout/fragment_akcv_fragment.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/fragment_akcvniz.xml" value="0.10021260579427077" />
-        <entry key="app/src/main/res/layout/fragment_articles.xml" value="0.1035585580627777" />
+        <entry key="app/src/main/res/layout/fragment_articles.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/fragment_articles_content.xml" value="0.10151028103298615" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.21822916666666667" />
+        <entry key="app/src/main/res/layout/fragment_first_new.xml" value="0.39166666666666666" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21822916666666667" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.21822916666666667" />
         <entry key="app/src/main/res/layout/fragment_pfofil.xml" value="0.16837514241536455" />
         <entry key="app/src/main/res/layout/fragment_pfofile.xml" value="0.21822916666666667" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_robot.xml" value="0.25613356185833197" />
+        <entry key="app/src/main/res/layout/fragment_robot.xml" value="0.24456163480553725" />
+        <entry key="app/src/main/res/layout/fragment_second_new.xml" value="0.39166666666666666" />
         <entry key="app/src/main/res/layout/fragment_stati.xml" value="0.3111679077148438" />
         <entry key="app/src/main/res/layout/fragment_stocks_down.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_stocks_up.xml" value="0.1" />

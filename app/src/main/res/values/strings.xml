@@ -1,13 +1,94 @@
 <resources>
-    <string name="app_name">Smart Stocks</string>
+    <string name="app_name" translatable="false">Smart Stocks</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="title_home">Новости</string>
-    <string name="title_ups">Повышения</string>
-    <string name="title_robot">ИИ</string>
-    <string name="title_downs">Падения</string>
-    <string name="title_profile">Профиль</string>
+    <string name="title_home">News</string>
+    <string name="title_ups">Ups</string>
+    <string name="title_robot">AI</string>
+    <string name="title_downs">Downs</string>
+    <string name="title_profile">Profile</string>
+    <!-- navigation titles -->
 
-    <string name="articles_top_name">Топ брокеров</string>
-    <string name="articles_sber1">СберИнвестиции</string>
-    <string name="articles_comments">Топ брокеров</string>
+    <!-- News Tab-->
+    <string name="articles_top_name">Best Brokers</string>
+    <string name="articles_first_best_broker_comments">Comments</string>
+    <string name="articles_first_best_broker_name">SberInvestments</string>
+    <string name="articles_second_best_broker_name">Tinkoff Investments</string>
+    <string name="articles_third_best_broker_name">BCS</string>
+    <string name="articles_fourth_best_broker_name">FINAM</string>
+    <string name="articles_news_article">News</string>
+    <string name="articles_russian_news_article">Russia</string>
+    <string name="articles_foreign_news_article">Foreign</string>
+    <string name="articles_updater_button">Update</string>
+
+    <!--Titles for first new tab-->
+    <string name="articles_rus_new_1_title_1">The expert explained how Russia is becoming like an “Asian tiger”</string>
+    <string name="articles_rus_new_1_date_1" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_1_title_2">SecondNew1</string>
+    <string name="articles_rus_new_1_date_2" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_1_title_3">ThirdNew1</string>
+    <string name="articles_rus_new_1_date_3" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_1_title_4">FourthNew1</string>
+    <string name="articles_rus_new_1_date_4" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_1_title_5">FifthNew1</string>
+    <string name="articles_rus_new_1_date_5" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_1_title_6">SixthNew1</string>
+    <string name="articles_rus_new_1_date_6" translatable="false">26.05.2022 03:18</string>
+
+    <!--Titles for second new tab-->
+    <string name="articles_rus_new_2_title_1">The expert called the \"Achilles heel\" of Russian oil</string>
+    <string name="articles_rus_new_2_date_1" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_2_title_2">SecondNew2</string>
+    <string name="articles_rus_new_2_date_2" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_2_title_3">ThirdNew2</string>
+    <string name="articles_rus_new_2_date_3" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_2_title_4">FourthNew2</string>
+    <string name="articles_rus_new_2_date_4" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_2_title_5">FifthNew2</string>
+    <string name="articles_rus_new_2_date_5" translatable="false">26.05.2022 02:17</string>
+    <string name="articles_rus_new_2_title_6">SixthNew2</string>
+    <string name="articles_rus_new_2_date_6" translatable="false">26.05.2022 03:18</string>
+
+    <!--Titles for third new tab-->
+    <string name="articles_rus_new_3_title_1">The analyst explained why it is impossible to restrain the strengthening of the ruble</string>
+    <string name="articles_rus_new_3_date_1" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_3_title_2">SecondNew3</string>
+    <string name="articles_rus_new_3_date_2" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_3_title_3">ThirdNew3</string>
+    <string name="articles_rus_new_3_date_3" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_3_title_4">FourthNew3</string>
+    <string name="articles_rus_new_3_date_4" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_3_title_5">FifthNew3</string>
+    <string name="articles_rus_new_3_date_5" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_3_title_6">SixthNew3</string>
+    <string name="articles_rus_new_3_date_6" translatable="false">26.05.2022 03:18</string>
+
+    <!--Titles for fourth new tab-->
+    <string name="articles_rus_new_4_title_1">The head of the World Bank admits a recession of the world economy due to Ukraine</string>
+    <string name="articles_rus_new_4_date_1" translatable="false">23:49 25.05.2022</string>
+    <string name="articles_rus_new_4_title_2">SecondNew4</string>
+    <string name="articles_rus_new_4_date_2" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_4_title_3">ThirdNew4</string>
+    <string name="articles_rus_new_4_date_3" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_4_title_4">FourthNew4</string>
+    <string name="articles_rus_new_4_date_4" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_4_title_5">FifthNew4</string>
+    <string name="articles_rus_new_4_date_5" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_4_title_6">SixthNew4</string>
+    <string name="articles_rus_new_4_date_6" translatable="false">26.05.2022 03:18</string>
+
+    <!--Titles for fifth new tab-->
+    <string name="articles_rus_new_5_title_1">Moldova wants to renegotiate the terms of payment under the contract with Gazprom</string>
+    <string name="articles_rus_new_5_date_1" translatable="false">25.05.2022 23:43</string>
+    <string name="articles_rus_new_5_title_2">SecondNew5</string>
+    <string name="articles_rus_new_5_date_2" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_5_title_3">ThirdNew5</string>
+    <string name="articles_rus_new_5_date_3" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_5_title_4">FourthNew5</string>
+    <string name="articles_rus_new_5_date_4" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_5_title_5">FifthNew5</string>
+    <string name="articles_rus_new_5_date_5" translatable="false">26.05.2022 03:18</string>
+    <string name="articles_rus_new_5_title_6">SixthNew5</string>
+    <string name="articles_rus_new_5_date_6" translatable="false">26.05.2022 03:18</string>
+
+
 </resources>

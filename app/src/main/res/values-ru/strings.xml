@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_ups">Повышения</string>
+    <string name="title_robot">ИИ</string>
+    <string name="title_downs">Падения</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_home">Новости</string>
+
+    <string name="articles_top_name">Топ брокеров</string>
+    <string name="articles_first_best_broker_comments">Отзывы</string>
+    <string name="articles_first_best_broker_name">СберИнвестиции</string>
+    <string name="articles_second_best_broker_name">Тинькофф Инвестиции</string>
+    <string name="articles_third_best_broker_name">БКС</string>
+    <string name="articles_fourth_best_broker_name">ФИНАМ</string>
+    <string name="articles_news_article">Новости</string>
+    <string name="articles_russian_news_article">России</string>
+    <string name="articles_foreign_news_article">Иностранные</string>
+    <string name="articles_updater_button">Обновить</string>
+
+    <string name="articles_rus_new_1_title_1">Эксперт объяснил, чем Россия становится похожей на “азиатского тигра”</string>
+    <string name="articles_rus_new_1_title_2">ВтораяНовость</string>
+    <string name="articles_rus_new_1_title_3">ТретьяНовость</string>
+    <string name="articles_rus_new_1_title_4">ЧетвертаяНовость</string>
+    <string name="articles_rus_new_1_title_5">ПятаяНовость</string>
+    <string name="articles_rus_new_1_title_6">ШестаяНовость</string>
+
+    <string name="articles_rus_new_2_title_1">Эксперт назвал \"ахиллесову пяту\" российской нефти</string>
+    <string name="articles_rus_new_2_title_2">ВтораяНовость2</string>
+    <string name="articles_rus_new_2_title_3">ТретьяНовость2</string>
+    <string name="articles_rus_new_2_title_4">ЧетвертаяНовость2</string>
+    <string name="articles_rus_new_2_title_5">ПятаяНовость2</string>
+    <string name="articles_rus_new_2_title_6">ШестаяНовость2</string>
+
+    <string name="articles_rus_new_3_title_1">Аналитик объяснил, почему нельзя сдержать укрепление рубля</string>
+    <string name="articles_rus_new_3_title_2">ВтораяНовость3</string>
+    <string name="articles_rus_new_3_title_3">ТретьяНовость3</string>
+    <string name="articles_rus_new_3_title_4">ЧетвертаяНовость3</string>
+    <string name="articles_rus_new_3_title_5">ПятаяНовость3</string>
+    <string name="articles_rus_new_3_title_6">ШестаяНовость3</string>
+
+    <string name="articles_rus_new_4_title_1">Глава Всемирного банка допускает рецессию мировой экономики из-за Украины</string>
+    <string name="articles_rus_new_4_title_2">ВтораяНовость4</string>
+    <string name="articles_rus_new_4_title_3">ТретьяНовость4</string>
+    <string name="articles_rus_new_4_title_4">ЧетвертаяНовость4</string>
+    <string name="articles_rus_new_4_title_5">ПятаяНовость4</string>
+    <string name="articles_rus_new_4_title_6">ШестаяНовость4</string>
+
+    <string name="articles_rus_new_5_title_1">Молдавия хочет пересмотреть условия оплаты по контракту с "Газпромом"</string>
+    <string name="articles_rus_new_5_title_2">ВтораяНовость5</string>
+    <string name="articles_rus_new_5_title_3">ТретьяНовость5</string>
+    <string name="articles_rus_new_5_title_4">ЧетвертаяНовость5</string>
+    <string name="articles_rus_new_5_title_5">ПятаяНовость5</string>
+    <string name="articles_rus_new_5_title_6">ШестаяНовость5</string>
+</resources>

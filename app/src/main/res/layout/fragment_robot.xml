@@ -3,12 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:fitsSystemWindows="false">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-       android:background="?android:attr/windowBackground">
+        android:background="?android:attr/windowBackground">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,7 +42,7 @@
                         android:layout_marginTop="32dp"
                         android:text="искусственным"
                         android:textColor="#000000"
-                        android:textSize="36dp"
+                        android:textSize="36sp"
                         android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="@+id/textView16" />
@@ -53,7 +55,7 @@
                         android:layout_marginTop="32dp"
                         android:text="бывает "
                         android:textColor="#000000"
-                        android:textSize="36dp"
+                        android:textSize="36sp"
                         android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="@+id/textView200" />
@@ -66,7 +68,7 @@
                         android:layout_marginTop="8dp"
                         android:text="Интеллект"
                         android:textColor="#000000"
-                        android:textSize="36dp"
+                        android:textSize="36sp"
                         android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -78,7 +80,7 @@
                         android:layout_marginBottom="16dp"
                         android:text="Доверьтесь ему и он доверится вам"
                         android:textColor="#000000"
-                        android:textSize="12dp"
+                        android:textSize="12sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="@+id/textView200"
@@ -106,7 +108,7 @@
                         android:layout_marginTop="16dp"
                         android:text="Поучимся?"
                         android:textColor="#000000"
-                        android:textSize="36dp"
+                        android:textSize="36sp"
                         android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -246,7 +248,8 @@
                         android:id="@+id/textView103"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="24dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="8dp"
                         android:text="● пройдём на следующий уровень"
                         android:textColor="#000000"
                         android:textSize="16dp"

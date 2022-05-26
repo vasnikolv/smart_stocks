@@ -13,6 +13,6 @@ public class StocksDown extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_stocks_down, container);
+        return inflater.inflate(R.layout.fragment_stocks_down, container, false);
     }
 }
