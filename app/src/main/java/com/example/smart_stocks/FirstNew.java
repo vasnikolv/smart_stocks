@@ -13,16 +13,7 @@ import androidx.fragment.app.Fragment;
 public class FirstNew extends Fragment {
     @Nullable
 
-    @MainThread
-    public void onBackPressed() {
-        getFragmentManager().beginTransaction().setCustomAnimations(
-                        R.anim.slide_in,  // enter
-                        R.anim.fade_out,  // exit
-                        R.anim.fade_in,   // popEnter
-                        R.anim.slide_out  // popExit
-                )
-                .replace(R.id.fragment_container, new Articles()).commit();
-    }
+
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

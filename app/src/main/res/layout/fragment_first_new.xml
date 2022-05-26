@@ -25,7 +25,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
-                android:text='"Газпром" разъяснил ситуацию с поставками газа в Польшу'
+                android:text='@string/articles_rus_new_1_title_1'
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -44,17 +44,14 @@
                 app:layout_constraintTop_toBottomOf="@+id/first_new_article" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/first_new_main_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
-                android:text='Для диверсификации поставок сейчас в Польшу тянется газопровод Baltic Pipe из Норвегии. Его максимальная мощность - 10 млрд кубометров в год, что соответствует объемам импорта газа из России. Но запуск газопровода запланирован только в сентябре, а на заявленную мощность он сможет выйти только в 2023 году. К тому же под вопросом остается ресурсная база для заполнения Baltic Pipe.
-
-Польша проживет без прямого экспорта газа из России, но Варшаву ждет тяжелая зима и уже в ближайшее время полякам понадобятся поставки российского газа через третьи страны - Германию или Словакию, считает замглавы Фонда национальной энергетической безопасности Алексей Гривач.
-
-По его словам, это в свою очередь усложнит для других стран ЕС подготовку к предстоящей зиме. Ну а дефицит газа поддержит цены на высоком уровне в ближайшие месяцы, усиливая нагрузку на экономическую и социальную системы Европы, а также осложнит закачку газа в подземные хранилища на коммерческих условиях, считает эксперт.'
+                android:text='РФ в настоящее время наиболее близка к термину “локализм”, чем была в последние три десятка лет своего развития. Этим она становится похожей на “азиатского тигра” - Гонконг, рассказал агентству “Прайм” старший аналитик “Русс-Инвест” Роман Блинов.
+Он напомнил, что “локализм” подразумевает приоритет интересов местных жителей, их идентичность, историю, региональное управление. Это противопоставляется терминам “глобализм” и “централизованное правительство”.Локализм за последние годы приобрел статус заметной политической доктрины. Это связано с переходом множества ветвей местной власти под управление региональных и глобальных структур, в связи с чем стал актуален вопрос приоритетов и разделения зон ответственности. Из-за санкций Россия все сильнее будет сосредотачиваться на внутренней повестке, уверен Блинов.'
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +61,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="14:32 28.02.2022"
+                android:text="@string/articles_rus_new_1_date_2"
                 app:layout_constraintEnd_toEndOf="@+id/first_new_article"
                 app:layout_constraintTop_toTopOf="@+id/second_new_source" />
 
@@ -78,7 +75,7 @@
                 android:scaleType="centerInside"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintTop_toBottomOf="@+id/first_new_main_text"
                 app:srcCompat="@drawable/first_new_image" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

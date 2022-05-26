@@ -105,6 +105,13 @@ public class Articles extends Fragment {
         String titlesTo4New[] = {getResources().getString(R.string.articles_rus_new_4_title_1), getResources().getString(R.string.articles_rus_new_4_title_2), getResources().getString(R.string.articles_rus_new_4_title_3), getResources().getString(R.string.articles_rus_new_5_title_4), getResources().getString(R.string.articles_rus_new_4_title_5), getResources().getString(R.string.articles_rus_new_4_title_6)};
         String titlesTo5New[] = {getResources().getString(R.string.articles_rus_new_5_title_1), getResources().getString(R.string.articles_rus_new_5_title_2), getResources().getString(R.string.articles_rus_new_5_title_3), getResources().getString(R.string.articles_rus_new_5_title_4), getResources().getString(R.string.articles_rus_new_5_title_5), getResources().getString(R.string.articles_rus_new_5_title_6)};
 
+        String datesTo1New[] = {getResources().getString(R.string.articles_rus_new_1_date_1), getResources().getString(R.string.articles_rus_new_1_date_2), getResources().getString(R.string.articles_rus_new_1_date_3), getResources().getString(R.string.articles_rus_new_1_date_4), getResources().getString(R.string.articles_rus_new_1_date_5), getResources().getString(R.string.articles_rus_new_1_date_6)};
+        String datesTo2New[] = {getResources().getString(R.string.articles_rus_new_2_date_1), getResources().getString(R.string.articles_rus_new_2_date_2), getResources().getString(R.string.articles_rus_new_2_date_3), getResources().getString(R.string.articles_rus_new_2_date_4), getResources().getString(R.string.articles_rus_new_2_date_5), getResources().getString(R.string.articles_rus_new_2_date_6)};
+        String datesTo3New[] = {getResources().getString(R.string.articles_rus_new_3_date_1), getResources().getString(R.string.articles_rus_new_3_date_2), getResources().getString(R.string.articles_rus_new_3_date_3), getResources().getString(R.string.articles_rus_new_3_date_4), getResources().getString(R.string.articles_rus_new_3_date_5), getResources().getString(R.string.articles_rus_new_3_date_6)};
+        String datesTo4New[] = {getResources().getString(R.string.articles_rus_new_4_date_1), getResources().getString(R.string.articles_rus_new_4_date_2), getResources().getString(R.string.articles_rus_new_4_date_3), getResources().getString(R.string.articles_rus_new_4_date_4), getResources().getString(R.string.articles_rus_new_4_date_5), getResources().getString(R.string.articles_rus_new_4_date_6)};
+        String datesTo5New[] = {getResources().getString(R.string.articles_rus_new_5_date_1), getResources().getString(R.string.articles_rus_new_5_date_2), getResources().getString(R.string.articles_rus_new_5_date_3), getResources().getString(R.string.articles_rus_new_5_date_4), getResources().getString(R.string.articles_rus_new_5_date_5), getResources().getString(R.string.articles_rus_new_5_date_6)};
+
+
 
         TextView rusNew1Title = view.findViewById(R.id.rus_new_1_title);
         TextView rusNew2Title = view.findViewById(R.id.rus_new_2_title);
@@ -128,6 +135,12 @@ public class Articles extends Fragment {
                 rusNew4Title.setText(String.valueOf(titlesTo4New[q]));
                 rusNew5Title.setText(String.valueOf(titlesTo5New[q]));
 
+                rusNew1Date.setText(String.valueOf(datesTo1New[q]));
+                rusNew2Date.setText(String.valueOf(datesTo2New[q]));
+                rusNew3Date.setText(String.valueOf(datesTo3New[q]));
+                rusNew4Date.setText(String.valueOf(datesTo4New[q]));
+                rusNew5Date.setText(String.valueOf(datesTo5New[q]));
+
                 q++;
                 if (q >= titlesTo1New.length) q = 0;
             }
@@ -136,22 +149,6 @@ public class Articles extends Fragment {
 
         return view;
     }
-//
-//    public void setText() {
-//        String titleTo1New[] = {"Эксперт объяснил, чем Россия становится похожей на азиатского тигра", "Tuesday", "Sunday"};
-//        final TextView textView = getView().findViewById(R.id.rus_new_1_title);
-//        for (int i = 0; i < 3; i++) {
-//            int q = i;
-//            new java.util.Timer().schedule(
-//                    new java.util.TimerTask() {
-//                        @Override
-//                        public void run() {
-//                            textView.setText(String.valueOf(titleTo1New[q]));
-//                        }
-//                    },
-//                    3000
-//            );
-//        }
-//    }
+
 
 }

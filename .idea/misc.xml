@@ -22,6 +22,7 @@
         <entry key="app/src/main/res/layout/activity_second_new.xml" value="0.18920765027322403" />
         <entry key="app/src/main/res/layout/articles.xml" value="0.21822916666666667" />
         <entry key="app/src/main/res/layout/first_new.xml" value="0.29789123535156253" />
+        <entry key="app/src/main/res/layout/fr_polus_info.xml" value="0.2608695652173913" />
         <entry key="app/src/main/res/layout/fragment_akcv_fragment.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/fragment_akcvniz.xml" value="0.10021260579427077" />
         <entry key="app/src/main/res/layout/fragment_articles.xml" value="0.19322916666666667" />
@@ -32,6 +33,7 @@
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.21822916666666667" />
         <entry key="app/src/main/res/layout/fragment_pfofil.xml" value="0.16837514241536455" />
         <entry key="app/src/main/res/layout/fragment_pfofile.xml" value="0.21822916666666667" />
+        <entry key="app/src/main/res/layout/fragment_polus_info.xml" value="0.24217478434244794" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_robot.xml" value="0.24456163480553725" />
         <entry key="app/src/main/res/layout/fragment_second_new.xml" value="0.39166666666666666" />
